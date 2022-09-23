@@ -7,10 +7,9 @@ body {
   background: url("./images/bg-pattern-top.svg"),
     url("./images/bg-pattern-bottom.svg");
   background-color: hsl(185, 75%, 39%);
-  background-repeat: no-repeat, no-repeat;
-  /* background-size: contain; */
-  background-position: left top, right bottom;
-  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: -40rem -40rem, 50rem 30rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,6 +71,4 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-h2 {
 }
