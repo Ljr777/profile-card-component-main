@@ -25,6 +25,9 @@ body {
 .card-pattern {
   border-radius: 2rem 2rem 0 0;
 }
+.name {
+  margin-right: 5px;
+}
 .content {
   padding: 2.5rem 5rem;
   display: flex;
