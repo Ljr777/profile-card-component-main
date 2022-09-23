@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.colummn {
+  display: flex;
+  flex-direction: column;
+}
+.vr-centre {
+  justify-content: center;
+}
+.hr-centre {
+  align-items: center;
+}
+.dark-blue {
+  color: hsl(227, 10%, 46%);
+}
+.v-dark-blue {
+  color: hsl(229, 23%, 23%);
+  font-weight: bold;
+}
